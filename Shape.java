@@ -4,7 +4,7 @@ public class Shape{
 
     public Shape(){
         this.rows = 0;
-        this.character = '';
+        this.character = ' ';
     }
     public Shape(int x, char c){
 
@@ -20,5 +20,8 @@ public class Shape{
     }
     public void setCharacter(char c){
         this.character = c;
+    }
+    public String toString(){
+        return "Rows=" + rows + " Character=" + character;
     }
 }
