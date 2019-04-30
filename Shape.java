@@ -14,7 +14,7 @@ public class Shape{
     }
     public char getCharacter(){
         return this.character;
-    } 
+    }
     public void setRows(int x){
         this.rows = x;
     }
@@ -23,5 +23,5 @@ public class Shape{
     }
     public String toString(){
         return "Rows=" + rows + " Character=" + character;
-    }  
+    }
 }
