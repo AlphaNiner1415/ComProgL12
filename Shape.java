@@ -7,7 +7,8 @@ public class Shape{
         this.character = ' ';
     }
     public Shape(int x, char c){
-
+        this.rows = x;
+        this.character = c;
     }
     public int getRows(){
         return this.rows;
