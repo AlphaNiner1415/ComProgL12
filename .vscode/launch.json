@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TriangleTest",
+            "request": "launch",
+            "mainClass": "TriangleTest",
+            "projectName": "ComProgL12_22cada9a"
+        }
+    ]
+}

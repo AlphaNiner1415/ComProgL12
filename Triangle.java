@@ -10,9 +10,7 @@ public class Triangle extends Shape{
         for(int i = 0; i < this.rows; i++){
             System.out.println(character);
         }
-        for (int j = 0; j< super.rows; j++){
-            System.out.println(character);
-        }
+        
     }
 
 }
