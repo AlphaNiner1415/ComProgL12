@@ -1,9 +1,9 @@
 public class Square extends Shape{
   public Square(int in_rows){
-
+    this(in_rows,'*');
   }
   public Square(int in_rows, char in_character){
-
+    super(in_rows, in_character);
   }
   public draw(){
 
@@ -18,6 +18,6 @@ public class Square extends Shape{
 
   }
   public String toString(){
-      return "Rows=" + rows + " Character=" + character;
-  }  
+      return "Rows= " + rows + ", Character= " + character;
+  }
 }

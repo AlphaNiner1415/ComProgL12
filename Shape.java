@@ -3,11 +3,11 @@ public class Shape{
     protected char character;
 
     public Shape(){
-        this.rows = 0;
-        this.character = ' ';
+        this(0,'*');
     }
     public Shape(int x, char c){
-
+        this.rows = x;
+        this.character = c;
     }
     public int getRows(){
         return this.rows;
