@@ -1,5 +1,5 @@
 public class RightTriangle extends Shape{
-    private boolean isHorizontalFlip;
+    private boolean isVerticalFlip;
     public RightTriangle(int rows){
         super(rows, ' ');
     }
@@ -52,6 +52,12 @@ public class RightTriangle extends Shape{
     public int getPerimeter(){
         int hypotenuse = (int) Math.sqrt(Math.pow(rows,2)*2);
         return(rows*2 + hypotenuse);
+    }
+    public boolean isVerticalFlip(){
+        return isVerticalFlip;
+    }
+    public void setVerticalFlip(boolean isVerticalFlip){
+        
     }
 
 }
