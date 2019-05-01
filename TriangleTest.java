@@ -1,6 +1,7 @@
 public class TriangleTest{
     public static void main(String[] args) {
-        Triangle t1 = new Triangle(5,'*');
+        RightTriangle t1 = new RightTriangle(5,'*');
         t1.draw();
+        t1.draw(1,2);
     }
 }
