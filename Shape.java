@@ -25,4 +25,5 @@ public class Shape{
     public String toString(){
         return "Rows=" + rows + " Character=" + character;
     }
+
 }

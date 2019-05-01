@@ -44,5 +44,14 @@ public class RightTriangle extends Shape{
         System.out.println("========");
         
     }
+    public int getArea(){
+        double result = rows*rows*0.5;
+        int rounded = (int)Math.round(result);
+        return(rounded);
+    }
+    public int getPerimeter(){
+        int hypotenuse = (int) Math.sqrt(Math.pow(rows,2)*2);
+        return(rows*2 + hypotenuse);
+    }
 
 }
