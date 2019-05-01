@@ -1,6 +1,6 @@
 public class Shape{
-    protected int rows;
-    protected char character;
+  protected int rows;
+  protected char character;
 
     public Shape(){
         this.rows = 0;
@@ -15,7 +15,7 @@ public class Shape{
     }
     public char getCharacter(){
         return this.character;
-    } 
+    }
     public void setRows(int x){
         this.rows = x;
     }
@@ -24,5 +24,5 @@ public class Shape{
     }
     public String toString(){
         return "Rows=" + rows + " Character=" + character;
-    }  
+    }
 }
