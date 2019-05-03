@@ -6,7 +6,7 @@ public class MyTest{
 		head.draw(5,0);
         tail.draw(4, 0);
         feet.setEnableSpecialDraw(true);
-        feet.setSpecialOffset(2);
+        feet.setSpecialOffset(3);
         feet.draw(14, 0);
         
 	}
