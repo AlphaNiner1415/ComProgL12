@@ -28,7 +28,9 @@ public class Square extends Shape{
       for(int j=0; j<this.rows; j++){
         System.out.print(this.character);
       }
-      System.out.print("\n");
+     if (i != this.rows - 1) {
+        System.out.print("\n");
+     }
     }
   }
 

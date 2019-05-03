@@ -5,7 +5,8 @@ public class MyTest{
         RightTriangle feet = new RightTriangle(7, '*');
 		head.draw(5,0);
         tail.draw(4, 0);
-        feet.draw(6, 0, true);
+        feet.setEnableSpecialDraw(true);
+        feet.setSpecialOffset(2);
         feet.draw(14, 0);
         
 	}
