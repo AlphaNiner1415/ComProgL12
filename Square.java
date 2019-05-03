@@ -8,12 +8,13 @@ public class Square extends Shape{
   }
 
   public void draw(){
-    for(int i=0; i<this.rows; i++){
-      for(int j=0; j<this.rows; j++){
-        System.out.print(this.character);
-      }
-      System.out.print("\n");
-    }
+    // for(int i=0; i<this.rows; i++){
+    //   for(int j=0; j<this.rows; j++){
+    //     System.out.print(this.character);
+    //   }
+    //   System.out.print("\n");
+    // }
+    draw(0, 0);
   }
 
   public void draw(int in_x, int in_y){

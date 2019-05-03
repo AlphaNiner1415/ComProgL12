@@ -1,9 +1,9 @@
 public class MyTest{
     public static void main(String[] args) {
-        Square sq1 = new Square(5,'X');
-        sq1.draw(0, 0);
-        RightTriangle rt1 = new RightTriangle(5,'\\');
-        rt1.setVerticalFlip(false);
-        rt1.draw(5,2);
+        Triangle head = new Triangle(7, '*');
+        head.setHorizontalFlip(true);
+		Square tail = new Square(5, '*');
+		head.draw(5, 5);
+		tail.draw(5, 0);
     }
 }
