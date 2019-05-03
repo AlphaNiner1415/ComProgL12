@@ -1,9 +1,14 @@
 public class MyTest{
     public static void main(String[] args) {
-        Square sq1 = new Square(5,'X');
-        sq1.draw(0, 0);
-        RightTriangle rt1 = new RightTriangle(5,'\\');
-        rt1.setVerticalFlip(false);
-        rt1.draw(5,2);
-    }
+		Triangle head = new Triangle(7, '*');
+        Square tail = new Square(15, '%');
+        RightTriangle feet = new RightTriangle(7, '*');
+		head.draw(5,0);
+        tail.draw(4, 0);
+        feet.setEnableSpecialDraw(true);
+        feet.setSpecialOffset(3);
+        feet.draw(14, 0);
+        
+	}
+
 }
