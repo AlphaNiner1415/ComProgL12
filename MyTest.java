@@ -1,9 +1,13 @@
 public class MyTest{
     public static void main(String[] args) {
-        Triangle head = new Triangle(7, '*');
-        head.setHorizontalFlip(true);
-		Square tail = new Square(5, '*');
-		head.draw(5, 5);
-		tail.draw(5, 0);
-    }
+		Triangle head = new Triangle(7, '*');
+        Square tail = new Square(15, '%');
+        RightTriangle feet = new RightTriangle(7, '*');
+		head.draw(5,0);
+        tail.draw(4, 0);
+        feet.draw(6, 0, true);
+        feet.draw(14, 0);
+        
+	}
+
 }

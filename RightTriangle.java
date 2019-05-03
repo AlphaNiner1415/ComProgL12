@@ -13,7 +13,7 @@ public class RightTriangle extends Shape{
 
   public RightTriangle(int rows, char character, boolean flip){
     super(rows, character);
-    flip = flip;
+    this.flip = flip;
   }
 
   public void draw(){
@@ -91,7 +91,7 @@ public class RightTriangle extends Shape{
   }
 
   public int getArea(){
-      return this.rows*this.rows;
+      return this.rows*this.rows/2;
   }
 
   public int getPerimeter(){

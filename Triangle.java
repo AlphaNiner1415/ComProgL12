@@ -69,4 +69,13 @@ public class Triangle extends Shape {
     public void setHorizontalFlip(boolean isHorizontalFlip) {
         this.isHorizontalFlip = isHorizontalFlip;
     }
+    public String toString() {
+        return "Rows: " + rows + ", Character: " + character;
+      }
+      public int getArea() {
+          return (rows * (rows/2));
+      }
+    public int getPerimeter() {
+        return 3*rows;
+    }
 }
